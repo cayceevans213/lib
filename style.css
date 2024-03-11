@@ -56,7 +56,6 @@ padding:0;
 font-size:100%;
 vertical-align:baseline;
 background:transparent;
-
 }
 
 /* change colours to suit your needs */
@@ -110,41 +109,52 @@ vertical-align:middle;
 	width: 100%;
 	/*background-color: red;*/
 }
+
 header
 {
-	height: 150px;
-	max-width: 100%;
-	background-color:grey;
-	padding: 10px;
+	height: 130px;
+	width: 100%;
+	background-color: black;
+	
 }
 section
 {
-	height: 100%;
-
-	max-width: 100%;
+	height: 550px;
+	width: 100%;
 	background-color: grey;
 }
 footer
 {
 	height: 82px;
-	max-width: 100%;
-	background-color: grey;
+	width: 100%;
+	background-color: black;
 }
 .logo
 {
 	float :left;
-
+	padding-left: 20px;
 
 }
 .logo img 
 {
+	height: 100px;
 	padding-left: 80px;
+	
+}
+
+.logo h1 {
+	font-size: 20px;
+	padding-left: 70px;
 }
 
 li a
 {
 	color: white;
 	text-decoration: none;
+	
+}
+li a:hover{
+	color: red;
 }
 nav
 {
@@ -160,21 +170,20 @@ nav li
 
 section .sec_img
 {
+	width: 100%;
 	height: 100%;
-    width: 100%;
+	background-size: cover;
 	margin-top: 0px;
 	background-image: url("images/image1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-    
+	background-repeat: no-repeat;
+
 }
 .box
 {
 	height: 300px;
 	width: 450px;
-	background-color: grey;
-	margin: auto;
+	background-color: #030002;
+	margin: 70px auto;
 	opacity: .6;
 	color: white;
 }
@@ -224,6 +233,3 @@ input
 	color: white;
 	padding: 20px;
 }
-
-
-/* -------------------- STUDENT LOGIN -----------------------------*/
